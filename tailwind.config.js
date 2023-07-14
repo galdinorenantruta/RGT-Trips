@@ -8,16 +8,14 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "search-background": "url(/world-map.png)",
       },
       colors: {
         primary_color: "#590BD8",
         darker_color: "#312A4F",
         lighter_color: "#DDD5EA",
         grey_primary: "#717171",
-        grey_lighter: '#BBBFBF'
+        grey_lighter: "#BBBFBF",
       },
       textColor: {
         text_primary: "#717171",
